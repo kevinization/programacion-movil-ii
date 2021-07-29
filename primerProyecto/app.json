@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "primerProyecto",
+    "slug": "primerProyecto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA8BHAwXHj9-1XzRG0mt9YW4wMVoUuHsgs"
+        }
+      },
+      "package": "com.kevinizaiton.nombreapp",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA_ROLL"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
